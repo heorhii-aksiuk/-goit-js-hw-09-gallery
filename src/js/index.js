@@ -1,2 +1,9 @@
-import { data as galleryItems } from "./data";
-console.log(galleryItems);
+import data from "./data";
+import createMarkup from "./markup";
+
+// import refs from "./refs";
+
+// const { galeryListEl } = refs;
+
+console.log(createMarkup(data));
+console.log(data);
