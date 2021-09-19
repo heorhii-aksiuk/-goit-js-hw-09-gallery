@@ -1,6 +1,6 @@
 # goit-js-hw-09-gallery
 
-Homework #09 JS(Node.js, NPM, Parcel, Webpack)
+JS. Homework #09 (Node.js, NPM, Parcel, Webpack)
 
 <!-- Разбей задание на несколько подзадач:
 
