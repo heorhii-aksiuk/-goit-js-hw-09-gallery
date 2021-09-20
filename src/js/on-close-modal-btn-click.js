@@ -1,6 +1,8 @@
+import closeModal from "./close-modal";
 import refs from "./refs";
-const { modalEl } = refs;
+const { modalImageEl } = refs;
 
 export default function onCloseModalBtnClick() {
-  modalEl.classList.remove("is-open");
+  closeModal();
+  modalImageEl.src = "";
 }
