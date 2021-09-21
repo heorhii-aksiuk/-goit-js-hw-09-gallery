@@ -1,7 +1,7 @@
 import refs from "./refs";
-const { galeryListEl, closeModalBtn } = refs;
+const { galeryListEl, closeModalBtn, overlayEl } = refs;
 import onImageClick from "./on-image-click";
-import onCloseModalBtnClick from "./on-close-modal-btn-click";
+import closeModal from "./close-modal";
 
 export const galeryListListener = galeryListEl.addEventListener(
   "click",
@@ -10,5 +10,7 @@ export const galeryListListener = galeryListEl.addEventListener(
 
 export const closeModalBtnListener = closeModalBtn.addEventListener(
   "click",
-  onCloseModalBtnClick
+  closeModal
 );
+
+export const overlayListener = overlayEl.addEventListener("click", closeModal);
