@@ -9,7 +9,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./data":"QHdL","./markup":"tW6H","./refs":"VyiV"}],"vwdI":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=s;var e=t(require("./refs")),r=t(require("./close-modal-with-esc"));function t(e){return e&&e.__esModule?e:{default:e}}var o=e.default.modalEl,l=e.default.modalImageEl;function s(){window.removeEventListener("keydown",r.default),o.classList.remove("is-open"),l.src=""}
 },{"./refs":"VyiV","./close-modal-with-esc":"u8NJ"}],"u8NJ":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=t;var e=o(require("./close-modal"));function o(e){return e&&e.__esModule?e:{default:e}}function t(o){console.log(o.code),"Escape"===o.code&&(0,e.default)()}
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=u;var e=t(require("./close-modal"));function t(e){return e&&e.__esModule?e:{default:e}}function u(t){"Escape"===t.code&&(0,e.default)()}
 },{"./close-modal":"vwdI"}],"n7vg":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=s;var e=d(require("./close-modal-with-esc")),t=d(require("./refs"));function d(e){return e&&e.__esModule?e:{default:e}}var r=t.default.modalEl;function s(){window.addEventListener("keydown",e.default),r.classList.add("is-open")}
 },{"./close-modal-with-esc":"u8NJ","./refs":"VyiV"}],"NG8O":[function(require,module,exports) {
@@ -19,4 +19,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./refs":"VyiV","./on-image-click":"NG8O","./close-modal":"vwdI"}],"QvaY":[function(require,module,exports) {
 "use strict";var e=u(require("./markup-render")),r=require("./listeners");function u(e){return e&&e.__esModule?e:{default:e}}
 },{"./markup-render":"KWQJ","./listeners":"ZbE9"}]},{},["QvaY"], null)
-//# sourceMappingURL=/goit-js-hw-09-gallery/js.8418e8b4.js.map
+//# sourceMappingURL=/goit-js-hw-09-gallery/js.06c875c9.js.map
